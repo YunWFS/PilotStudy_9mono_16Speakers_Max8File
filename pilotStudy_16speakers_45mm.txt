@@ -2,7 +2,7 @@
 # File "C:\Users\cheny\Documents\20220919_D\NTU\WFS\2024 Max\MovingTest_9mono_16Speakers\PilotStudy_9mono_16Speakers_Max8File\pilotStudy_16speakers_45mm.txt"
 # Exported by cheny
 # cheny@chenyw - Windows 8.1
-# 04-Jun-2024 17:17:51
+# 16-Jun-2024 03:08:32
 # Content: 759 OSC messages
 # ==============================================================================
 /options/name "Options"
@@ -268,40 +268,40 @@
 /bus/1/levels/output/post 1
 /bus/1/levels/output/mode "peak"
 /bus/1/speaker/number 16
-/bus/1/speakers/correction/delay "off"
-/bus/1/speakers/correction/gain "off"
+/bus/1/speakers/correction/delay "auto"
+/bus/1/speakers/correction/gain "auto"
 /bus/1/speakers/aed -39.6927 0.0 1.29958 -35.7539 0.0 1.23223 -31.3832 0.0 1.17137 -26.5651 0.0 1.11803 -21.3058 0.0 1.07336 -15.6423 0.0 1.03846 -9.64804 0.0 1.01435 -3.43363 0.0 1.0018 3.43363 0.0 1.0018 9.64804 0.0 1.01435 15.6423 0.0 1.03846 21.3058 0.0 1.07336 26.5651 0.0 1.11803 31.3832 0.0 1.17137 35.7539 0.0 1.23223 39.6927 0.0 1.29958
 /bus/1/speaker/1/delay 0.0
-/bus/1/speaker/2/delay 0.0
-/bus/1/speaker/3/delay 0.0
-/bus/1/speaker/4/delay 0.0
-/bus/1/speaker/5/delay 0.0
-/bus/1/speaker/6/delay 0.0
-/bus/1/speaker/7/delay 0.0
-/bus/1/speaker/8/delay 0.0
-/bus/1/speaker/9/delay 0.0
-/bus/1/speaker/10/delay 0.0
-/bus/1/speaker/11/delay 0.0
-/bus/1/speaker/12/delay 0.0
-/bus/1/speaker/13/delay 0.0
-/bus/1/speaker/14/delay 0.0
-/bus/1/speaker/15/delay 0.0
+/bus/1/speaker/2/delay 0.1962
+/bus/1/speaker/3/delay 0.3736
+/bus/1/speaker/4/delay 0.529
+/bus/1/speaker/5/delay 0.6591
+/bus/1/speaker/6/delay 0.7608
+/bus/1/speaker/7/delay 0.8311
+/bus/1/speaker/8/delay 0.8677
+/bus/1/speaker/9/delay 0.8677
+/bus/1/speaker/10/delay 0.8311
+/bus/1/speaker/11/delay 0.7608
+/bus/1/speaker/12/delay 0.6591
+/bus/1/speaker/13/delay 0.529
+/bus/1/speaker/14/delay 0.3736
+/bus/1/speaker/15/delay 0.1962
 /bus/1/speaker/16/delay 0.0
 /bus/1/speaker/1/gain/db 0.0
-/bus/1/speaker/2/gain/db 0.0
-/bus/1/speaker/3/gain/db 0.0
-/bus/1/speaker/4/gain/db 0.0
-/bus/1/speaker/5/gain/db 0.0
-/bus/1/speaker/6/gain/db 0.0
-/bus/1/speaker/7/gain/db 0.0
-/bus/1/speaker/8/gain/db 0.0
-/bus/1/speaker/9/gain/db 0.0
-/bus/1/speaker/10/gain/db 0.0
-/bus/1/speaker/11/gain/db 0.0
-/bus/1/speaker/12/gain/db 0.0
-/bus/1/speaker/13/gain/db 0.0
-/bus/1/speaker/14/gain/db 0.0
-/bus/1/speaker/15/gain/db 0.0
+/bus/1/speaker/2/gain/db -0.5
+/bus/1/speaker/3/gain/db -0.9
+/bus/1/speaker/4/gain/db -1.3
+/bus/1/speaker/5/gain/db -1.7
+/bus/1/speaker/6/gain/db -1.9
+/bus/1/speaker/7/gain/db -2.2
+/bus/1/speaker/8/gain/db -2.3
+/bus/1/speaker/9/gain/db -2.3
+/bus/1/speaker/10/gain/db -2.2
+/bus/1/speaker/11/gain/db -1.9
+/bus/1/speaker/12/gain/db -1.7
+/bus/1/speaker/13/gain/db -1.3
+/bus/1/speaker/14/gain/db -0.9
+/bus/1/speaker/15/gain/db -0.5
 /bus/1/speaker/16/gain/db 0.0
 /bus/1/speaker/1/name "1"
 /bus/1/speaker/2/name "2"
@@ -443,7 +443,7 @@
 /reverb/1/equalizer/filter/8/order 2
 /reverb/1/gain 0.0
 /reverb/1/gain/ramptime 20.0
-/reverb/1/mute 0
+/reverb/1/mute 1
 /reverb/1/annotation ""
 /reverb/1/levels/input/visible 1
 /reverb/1/levels/input/post 0
