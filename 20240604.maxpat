@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 1468.0, 705.0 ],
+		"rect" : [ 41.0, 84.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 903.0, 99.0, 109.0, 22.0 ],
+					"text" : "/track/1/xyz 0 1.2 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-98",
 					"maxclass" : "newobj",
@@ -147,7 +159,7 @@
 					"basictuning" : 440,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\cheny\\Documents\\20220919_D\\NTU\\WFS\\2024 Max\\MovingTest_9mono_16Speakers\\PilotStudy_9mono_16Speakers_Max8File\\50-Male speech.flac",
+								"absolutepath" : "50-Male speech.flac",
 								"filename" : "50-Male speech.flac",
 								"filekind" : "audiofile",
 								"id" : "u635001767",
@@ -207,7 +219,7 @@
 					"basictuning" : 440,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\cheny\\Documents\\20220919_D\\NTU\\WFS\\2024 Max\\MovingTest_9mono_16Speakers\\PilotStudy_9mono_16Speakers_Max8File\\49-Female speech.flac",
+								"absolutepath" : "49-Female speech.flac",
 								"filename" : "49-Female speech.flac",
 								"filekind" : "audiofile",
 								"id" : "u279001755",
@@ -246,7 +258,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 359.829316403865732, 852.205129504203796, 34.521111223697687, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "-14"
 				}
 
@@ -268,7 +279,7 @@
 					"basictuning" : 440,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\cheny\\Documents\\20220919_D\\NTU\\WFS\\2024 Max\\MovingTest_9mono_16Speakers\\PilotStudy_9mono_16Speakers_Max8File\\27-Castanets.flac",
+								"absolutepath" : "27-Castanets.flac",
 								"filename" : "27-Castanets.flac",
 								"filekind" : "audiofile",
 								"id" : "u139001735",
@@ -328,7 +339,7 @@
 					"basictuning" : 440,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/cheny/Documents/20220919_D/NTU/WFS/2024 Max/MovingTest_9mono_16Speakers/PilotStudy_9mono_16Speakers_Max8File/15-Cor anglais.flac",
+								"absolutepath" : "15-Cor anglais.flac",
 								"filename" : "15-Cor anglais.flac",
 								"filekind" : "audiofile",
 								"id" : "u988001720",
@@ -399,7 +410,7 @@
 					"basictuning" : 440,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/cheny/Documents/20220919_D/NTU/WFS/2024 Max/MovingTest_9mono_16Speakers/PilotStudy_9mono_16Speakers_Max8File/14-Oboe.flac",
+								"absolutepath" : "14-Oboe.flac",
 								"filename" : "14-Oboe.flac",
 								"filekind" : "audiofile",
 								"id" : "u479001711",
@@ -520,7 +531,7 @@
 					"basictuning" : 440,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:/Users/cheny/Documents/20220919_D/NTU/WFS/2024 Max/MovingTest_9mono_16Speakers/PilotStudy_9mono_16Speakers_Max8File/08-Violin.flac",
+								"absolutepath" : "08-Violin.flac",
 								"filename" : "08-Violin.flac",
 								"filekind" : "audiofile",
 								"id" : "u416001615",
@@ -641,14 +652,14 @@
 					"basictuning" : 440,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "birdsChirping75156(up).wav",
-								"filename" : "birdsChirping75156(up).wav",
+								"absolutepath" : "49-Female speech.flac",
+								"filename" : "49-Female speech.flac",
 								"filekind" : "audiofile",
-								"id" : "u704000875",
-								"selection" : [ 0.0, 1.0 ],
+								"id" : "u720000868",
+								"selection" : [ 0.0, 0.336842105263158 ],
 								"loop" : 0,
 								"content_state" : 								{
-
+									"loop" : 0
 								}
 
 							}
@@ -2442,6 +2453,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 912.5, 136.0, 829.0, 136.0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
@@ -2474,6 +2493,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 1066.5, 135.0, 829.0, 135.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -3172,13 +3192,6 @@
 				"bootpath" : "~/Documents/20220919_D/NTU/WFS/2024 Max/MovingTest_9mono_16Speakers/PilotStudy_9mono_16Speakers_Max8File",
 				"patcherrelativepath" : ".",
 				"type" : "Mp3",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "birdsChirping75156(up).wav",
-				"bootpath" : "~/Documents/20220919_D/NTU/WFS/2024 Max/MovingTest_9mono_16Speakers/PilotStudy_9mono_16Speakers_Max8File",
-				"patcherrelativepath" : ".",
-				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
